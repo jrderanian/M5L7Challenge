@@ -11,6 +11,7 @@
 		477E467B28DF9E970019C30B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E467A28DF9E970019C30B /* ContentView.swift */; };
 		477E467D28DF9E9A0019C30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477E467C28DF9E9A0019C30B /* Assets.xcassets */; };
 		477E468028DF9E9A0019C30B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477E467F28DF9E9A0019C30B /* Preview Assets.xcassets */; };
+		477E468728E084820019C30B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E468628E084820019C30B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		477E467A28DF9E970019C30B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		477E467C28DF9E9A0019C30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477E467F28DF9E9A0019C30B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		477E468628E084820019C30B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		477E468828E087190019C30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		477E467728DF9E970019C30B /* M5L7Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				477E468828E087190019C30B /* Info.plist */,
 				477E467828DF9E970019C30B /* M5L7ChallengeApp.swift */,
 				477E467A28DF9E970019C30B /* ContentView.swift */,
+				477E468628E084820019C30B /* WebView.swift */,
 				477E467C28DF9E9A0019C30B /* Assets.xcassets */,
 				477E467E28DF9E9A0019C30B /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477E468728E084820019C30B /* WebView.swift in Sources */,
 				477E467B28DF9E970019C30B /* ContentView.swift in Sources */,
 				477E467928DF9E970019C30B /* M5L7ChallengeApp.swift in Sources */,
 			);
@@ -269,6 +275,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"M5L7Challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = M5L7Challenge/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +305,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"M5L7Challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = M5L7Challenge/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

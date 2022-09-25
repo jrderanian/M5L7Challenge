@@ -6,17 +6,20 @@
 //
 
 import SwiftUI
+import UIKit
+import WebKit
 
+// let's try this... https://www.avanderlee.com/swiftui/integrating-swiftui-with-uikit/
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+
+        
+        WebView(url: URL(string: "http://www.drano.net")!)
+        
     }
+    
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
